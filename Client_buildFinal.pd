@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #N canvas 0 0 1522 762 10;
+=======
+#N canvas 0 0 146 0 10;
+>>>>>>> parent of bcfb096 (user test 1)
 =======
 #N canvas 0 0 146 0 10;
 >>>>>>> parent of bcfb096 (user test 1)
@@ -13,7 +17,11 @@
 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #N canvas 0 0 1522 762 engine 0;
+=======
+#N canvas 19 177 1523 763 engine 1;
+>>>>>>> parent of bcfb096 (user test 1)
 =======
 #N canvas 19 177 1523 763 engine 1;
 >>>>>>> parent of bcfb096 (user test 1)
@@ -337,6 +345,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X obj 1142 -270 t b b;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #X dropdown 1593 -659 6 1 0 0 - - -, f 6;
 #X msg 1721 41 names CMajor DMajor EMajor FMajor GMajor AMajor BMajor
 C#Major D#Major F#Major G#Major A#Major CMinor DMinor EMinor FMinor
@@ -373,6 +382,8 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X obj 1767 415 s a\$2;
 #X msg 65 -335 connect 52.142.14.115 3007;
 #X obj 1857 -344 t b b;
+=======
+>>>>>>> parent of bcfb096 (user test 1)
 =======
 >>>>>>> parent of bcfb096 (user test 1)
 =======
@@ -888,6 +899,9 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X connect 256 0 65 0;
 #X connect 256 1 227 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of bcfb096 (user test 1)
+=======
 >>>>>>> parent of bcfb096 (user test 1)
 =======
 >>>>>>> parent of bcfb096 (user test 1)
