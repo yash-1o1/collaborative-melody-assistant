@@ -3,7 +3,7 @@
 0;
 #X obj 0 0 cnv 15 1192 137 empty empty empty 600 12 0 20 #e0e0e0 #404040
 0;
-#N canvas 0 0 1522 762 engine 1;
+#N canvas 0 0 1522 762 engine 0;
 #X obj 439 -120 gate 1 0, f 35;
 #X obj 259 -155 netclient;
 #X floatatom 310 -133 5 0 0 0 - - - 0, f 5;
@@ -293,7 +293,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X msg 1540 414 send %instrument% \$1;
 #X obj 259 -52 route auth? authorizationOK authorizationError %note%
 %instrument%, f 66;
-#X floatatom 572 -19 5 0 0 0 - - - 0, f 5;
+#X floatatom 598 14 5 0 0 0 - - - 0, f 5;
 #X obj 685 -314 t b b;
 #X obj 734 -312 t b b;
 #X obj 791 -311 t b b;
@@ -394,7 +394,7 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X connect 36 0 1 0;
 #X connect 37 0 38 0;
 #X connect 37 0 45 0;
-#X connect 38 0 285 0;
+#X connect 38 0 49 0;
 #X connect 38 1 3 0;
 #X connect 39 0 18 0;
 #X connect 40 0 15 0;
@@ -796,6 +796,6 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X coords 0 -1 1 1 1190 358 2 463 -697;
 #X restore 2 138 pd engine;
 #X obj 52 29 tgl 67 0 \$0-connect \$0-connectUI CONNECT 14 31 0 10
-#14e814 #000000 #000000 1 1;
+#14e814 #000000 #000000 0 1;
 #X symbolatom 161 45 38 0 0 0 NAME - #0-chatname 0, f 38;
 #X symbolatom 160 69 92 0 0 0 CHAT - #0-chattext 0, f 92;
