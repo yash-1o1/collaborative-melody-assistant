@@ -777,6 +777,6 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X coords 0 -1 1 1 1190 358 2 463 -697;
 #X restore 2 138 pd engine;
 #X obj 52 29 tgl 67 0 \$0-connect \$0-connectUI CONNECT 14 31 0 10
-#fc2828 #000000 #000000 0 1;
+#14e814 #000000 #000000 1 1;
 #X symbolatom 161 45 38 0 0 0 NAME - #0-chatname 0, f 38;
 #X symbolatom 160 69 92 0 0 0 CHAT - #0-chattext 0, f 92;
