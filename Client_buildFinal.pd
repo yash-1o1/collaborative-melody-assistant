@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 #N canvas 0 0 1522 762 10;
+=======
+#N canvas 0 0 146 0 10;
+>>>>>>> parent of bcfb096 (user test 1)
 #X obj 0 135 cnv 15 1192 361 empty empty empty 20 12 0 14 #ff8000 #404040
 0;
 #X obj 0 0 cnv 15 1192 137 empty empty empty 600 12 0 20 #e0e0e0 #404040
 0;
+<<<<<<< HEAD
 #N canvas 0 0 1522 762 engine 0;
+=======
+#N canvas 19 177 1523 763 engine 1;
+>>>>>>> parent of bcfb096 (user test 1)
 #X obj 439 -120 gate 1 0, f 35;
 #X obj 259 -155 netclient;
 #X floatatom 310 -133 5 0 0 0 - - - 0, f 5;
@@ -57,7 +65,7 @@
 #X msg 50 -231 connect localhost 3007;
 #X obj 1077 601 fluid~ TimGM6mb.sf2;
 #X obj 947 460 makenote;
-#X obj 694 -653 output~;
+#X obj 695 -646 output~;
 #X msg 1357 463 500;
 #X msg 1389 464 1000;
 #X msg 1423 464 3000;
@@ -94,7 +102,7 @@
 #X msg 774 34 50;
 #X msg 750 62 49;
 #X msg 723 36 48;
-#X dropdown 911 -651 6 1 0 0 - - -, f 6;
+#X dropdown 901 -653 6 1 0 0 - - -, f 6;
 #X msg 732 394 names 100 500 1000 2000;
 #X obj 729 423 select 100 500 1000 2000;
 #X msg 1323 462 100;
@@ -104,7 +112,7 @@
 #000000 #000000;
 #X floatatom 1540 389 5 0 0 0 - - - 0, f 5;
 #X msg 1437 286 names Piano Guitar Synth Violin Flute;
-#X dropdown 1015 -651 6 1 0 0 - - -, f 6;
+#X dropdown 981 -653 6 1 0 0 - - -, f 6;
 #X obj 1437 311 select Piano Guitar Synth Violin Flute;
 #X msg 1512 354 1;
 #X msg 1543 354 26;
@@ -129,7 +137,7 @@
 #X text 891 -677 Lenght of Notes;
 #X text 992 -677 Instrument Select;
 #X text 1108 -677 Octave Select;
-#X text 701 -679 Output Volume;
+#X text 701 -677 Output Volume;
 #X obj 495 -27 unpack 0 0;
 #X obj 947 507 pack 0 0 0;
 #X msg 947 529 \$3 \$1 \$2;
@@ -146,105 +154,105 @@
 #X obj 1179 304 - 12;
 #X obj 1116 275 gate 1 1;
 #X msg 1543 538 prog \$2 \$1;
-#X obj 1167 -548 cnv 15 49 199 empty e2 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 1166 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1441 -549 cnv 15 49 199 empty c3 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 1386 -549 cnv 15 49 199 empty b2 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 1331 -549 cnv 15 49 199 empty a2 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 1277 -549 cnv 15 49 199 empty g2 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 1222 -548 cnv 15 49 199 empty f2 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 1113 -548 cnv 15 49 199 empty d2 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 1058 -549 cnv 15 49 199 empty c2 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 1004 -549 cnv 15 49 199 empty b1 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 949 -549 cnv 15 49 199 empty a1 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 894 -549 cnv 15 49 199 empty g1 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 839 -549 cnv 15 49 199 empty f1 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 784 -549 cnv 15 49 199 empty e1 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 730 -549 cnv 15 49 199 empty d1 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 675 -549 cnv 15 49 199 empty c1 empty 20 12 0 14 #c0c0c0 #404040
-0;
-#X obj 729 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 783 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 838 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 892 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 948 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1004 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1058 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1112 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1222 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1277 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1329 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1386 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 1441 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 674 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
-empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
-#X obj 767 -549 cnv 15 29 114 empty d\$1 empty 20 12 0 14 #000000 #404040
-0;
-#X obj 877 -549 cnv 15 29 114 empty f\$1 empty 20 12 0 14 #000000 #404040
-0;
-#X obj 933 -549 cnv 15 29 114 empty g\$1 empty 20 12 0 14 #000000 #404040
-0;
-#X obj 986 -549 cnv 15 29 114 empty a\$1 empty 20 12 0 14 #000000 #404040
-0;
-#X obj 1096 -549 cnv 15 29 114 empty c\$2 empty 20 12 0 14 #000000
+#X obj 1167 -548 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
 #404040 0;
-#X obj 1150 -548 cnv 15 29 114 empty d\$2 empty 20 12 0 14 #000000
+#X obj 1167 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1441 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
 #404040 0;
-#X obj 1260 -549 cnv 15 29 114 empty f\$1 empty 20 12 0 14 #000000
+#X obj 1386 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
 #404040 0;
-#X obj 1314 -549 cnv 15 29 114 empty g\$1 empty 20 12 0 14 #000000
+#X obj 1331 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
 #404040 0;
-#X obj 1370 -548 cnv 15 29 114 empty a\$2 empty 20 12 0 14 #000000
+#X obj 1277 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
 #404040 0;
-#X obj 714 -549 cnv 15 29 114 empty c\$1 empty 20 12 0 14 #000000 #404040
-0;
-#X obj 713 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 1222 -548 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 1113 -548 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 1058 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 1004 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 949 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 894 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 839 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 784 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 730 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 675 -549 cnv 15 49 199 empty empty empty 20 12 0 14 #c0c0c0
+#404040 0;
+#X obj 730 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 784 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 839 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 893 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 949 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1005 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1059 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1113 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1223 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1278 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1330 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1387 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 1442 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 675 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 49 199
+empty empty empty 49 199 0 0 10 #000000 15 186 12.5 12.5 0 1 0;
+#X obj 767 -549 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 877 -549 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 933 -549 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 986 -549 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 1096 -549 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 1150 -548 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 1260 -549 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 1314 -549 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 1370 -548 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 714 -549 cnv 15 29 114 empty empty empty 20 12 0 14 #000000
+#404040 0;
+#X obj 714 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 766 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 767 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 876 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 877 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 932 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 933 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 985 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 986 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 1095 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 1096 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 1149 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 1150 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 1259 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 1260 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 1313 -550 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 1314 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
-#X obj 1369 -549 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
+#X obj 1370 -548 ggee/image @pd_extra/ggee/empty_image.png 0 1 29 114
 empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X msg 969 417 127;
 #X msg 777 320 names MiddleOctaves HigherOctaves LowerOctaves;
@@ -276,8 +284,8 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X msg 2780 15 0;
 #X msg 2714 67 1;
 #X msg 2745 67 0;
-#X dropdown 814 -652 6 1 0 0 - - -, f 6;
-#X msg 818 -736 names 1 2 3 4 5 6 7 8 9;
+#X dropdown 2210 -673 6 1 0 0 - - -, f 6;
+#X msg 2210 -707 names 1 2 3 4 5 6 7 8 9;
 #X obj 2345 -596 select 1 2 3 4 5 6 7 8 9;
 #X msg 2226 -349 send %channel% 1;
 #X msg 2239 -289 send %channel% 2;
@@ -319,6 +327,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X obj 1371 -268 t b b;
 #X obj 1092 -271 t b b;
 #X obj 1142 -270 t b b;
+<<<<<<< HEAD
 #X dropdown 1593 -659 6 1 0 0 - - -, f 6;
 #X msg 1721 41 names CMajor DMajor EMajor FMajor GMajor AMajor BMajor
 C#Major D#Major F#Major G#Major A#Major CMinor DMinor EMinor FMinor
@@ -355,6 +364,8 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X obj 1767 415 s a\$2;
 #X msg 65 -335 connect 52.142.14.115 3007;
 #X obj 1857 -344 t b b;
+=======
+>>>>>>> parent of bcfb096 (user test 1)
 #X connect 0 0 1 0;
 #X connect 1 0 228 0;
 #X connect 1 1 2 0;
@@ -499,6 +510,7 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X connect 85 0 122 1;
 #X connect 85 0 132 1;
 #X connect 85 0 123 1;
+<<<<<<< HEAD
 #X connect 86 0 88 0;
 #X connect 87 0 86 0;
 #X connect 88 0 90 0;
@@ -516,6 +528,26 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X connect 91 0 162 0;
 #X connect 92 0 227 0;
 #X connect 93 0 94 0;
+=======
+#X connect 85 0 133 1;
+#X connect 85 0 124 1;
+#X connect 86 0 123 1;
+#X connect 86 0 133 1;
+#X connect 86 0 124 1;
+#X connect 87 0 89 0;
+#X connect 88 0 87 0;
+#X connect 89 0 91 0;
+#X connect 89 1 57 0;
+#X connect 89 2 58 0;
+#X connect 89 3 59 0;
+#X connect 90 0 52 2;
+#X connect 91 0 90 0;
+#X connect 92 0 88 0;
+#X connect 92 0 94 0;
+#X connect 92 0 186 0;
+#X connect 92 0 185 0;
+#X connect 93 0 228 0;
+>>>>>>> parent of bcfb096 (user test 1)
 #X connect 94 0 95 0;
 #X connect 95 0 96 0;
 #X connect 95 1 97 0;
@@ -734,6 +766,7 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X connect 230 1 226 0;
 #X connect 231 0 83 0;
 #X connect 231 1 226 0;
+<<<<<<< HEAD
 #X connect 232 0 81 0;
 #X connect 232 1 226 0;
 #X connect 233 0 80 0;
@@ -793,6 +826,57 @@ GMinor AMinor BMinor C#Minor D#Minor F#Minor G#Minor A#Minor;
 #X connect 286 1 223 0;
 #X connect 286 1 224 0;
 #X connect 286 1 225 0;
+=======
+#X connect 232 0 86 0;
+#X connect 232 1 227 0;
+#X connect 233 0 84 0;
+#X connect 233 1 227 0;
+#X connect 234 0 82 0;
+#X connect 234 1 227 0;
+#X connect 235 0 81 0;
+#X connect 235 1 227 0;
+#X connect 236 0 79 0;
+#X connect 236 1 227 0;
+#X connect 237 0 77 0;
+#X connect 237 1 227 0;
+#X connect 238 0 75 0;
+#X connect 238 1 227 0;
+#X connect 239 0 62 0;
+#X connect 239 1 227 0;
+#X connect 240 0 64 0;
+#X connect 240 1 227 0;
+#X connect 241 0 66 0;
+#X connect 241 1 227 0;
+#X connect 242 0 67 0;
+#X connect 242 1 227 0;
+#X connect 243 0 69 0;
+#X connect 243 1 227 0;
+#X connect 244 0 71 0;
+#X connect 244 1 227 0;
+#X connect 245 0 73 0;
+#X connect 245 1 227 0;
+#X connect 246 0 74 0;
+#X connect 246 1 227 0;
+#X connect 247 0 70 0;
+#X connect 247 1 227 0;
+#X connect 248 0 85 0;
+#X connect 248 1 227 0;
+#X connect 249 0 83 0;
+#X connect 249 1 227 0;
+#X connect 250 0 80 0;
+#X connect 250 1 227 0;
+#X connect 251 0 78 0;
+#X connect 251 1 227 0;
+#X connect 252 0 76 0;
+#X connect 252 1 227 0;
+#X connect 253 0 68 0;
+#X connect 253 1 227 0;
+#X connect 254 0 72 0;
+#X connect 255 0 63 0;
+#X connect 255 1 227 0;
+#X connect 256 0 65 0;
+#X connect 256 1 227 0;
+>>>>>>> parent of bcfb096 (user test 1)
 #X coords 0 -1 1 1 1190 358 2 463 -697;
 #X restore 2 138 pd engine;
 #X obj 52 29 tgl 67 0 \$0-connect \$0-connectUI CONNECT 14 31 0 10
