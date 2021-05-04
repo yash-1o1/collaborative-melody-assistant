@@ -427,7 +427,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X msg 2522 -622 0;
 #X msg 2559 -633 1;
 #X msg 1956 -684 color #f00;
-#X msg 1820 156 names CMajor EMajo GMajor Clear;
+#X msg 1589 -730 names CMajor EMajo GMajor Clear;
 #X obj 1823 184 select CMajor EMajor GMajor Clear;
 #X connect 0 0 1 0;
 #X connect 1 0 297 0;
@@ -588,7 +588,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X connect 91 0 178 0;
 #X connect 91 0 177 0;
 #X connect 91 0 208 0;
-#X connect 91 0 247 0;
+#X connect 91 0 354 0;
 #X connect 92 0 219 0;
 #X connect 93 0 295 0;
 #X connect 94 0 92 0;
@@ -990,7 +990,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X connect 355 4 292 0;
 #X coords 0 -1 1 1 1443 358 2 463 -697;
 #X restore 0 137 pd engine;
-#X obj 52 29 tgl 67 0 \$0-connect \$0-connectUI CONNECT 14 31 0 10
+#X obj 52 28 tgl 67 0 \$0-connect \$0-connectUI CONNECT 14 31 0 10
 #fc2828 #000000 #000000 0 1;
 #X symbolatom 161 45 38 0 0 0 NAME - #0-chatname 0, f 38;
 #X symbolatom 160 69 92 0 0 0 CHAT - #0-chattext 0, f 92;
