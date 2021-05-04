@@ -1,4 +1,4 @@
-#N canvas 0 0 1522 762 10;
+#N canvas 119 40 1230 518 10;
 #X obj 0 156 cnv 15 1229 361 empty empty empty 20 12 0 14 #ff8000 #404040
 0;
 #X obj 0 0 cnv 15 1229 155 empty empty COLLABORATIVE\ MELODY\ ASSISSTANT
@@ -54,7 +54,7 @@
 #X obj 140 -592 delay 500;
 #X msg 181 -615 stop;
 #X msg 697 -72 color 13 22 22 \, 0;
-#X msg 50 -231 connect localhost 3007;
+#X msg 18 -265 connect localhost 3007;
 #X obj 1077 601 fluid~ TimGM6mb.sf2;
 #X obj 947 460 makenote;
 #X obj 694 -653 output~;
@@ -313,7 +313,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X dropdown 1593 -659 6 1 0 0 - - -, f 6;
 #X text 793 -679 Select Channel;
 #X msg 1785 233 color #f00;
-#X msg 51 -364 connect 52.142.14.115 3007;
+#X msg 46 -350 connect 52.142.14.115 3007;
 #X obj 1718 357 s c1;
 #X obj 1758 357 s d1;
 #X obj 1797 356 s e1;
@@ -362,7 +362,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X msg 1600 341 57;
 #X obj 259 -54 route auth? authorizationOK authorizationError %note%
 %channel% %instrument% %nousers%, f 88;
-#X floatatom 542 -469 5 0 0 0 - - - 0, f 5;
+#X floatatom 541 -469 5 0 0 0 - - - 0, f 5;
 #X obj 1622 -523 cnv 15 42 38 empty chan7 7 20 12 0 20 #ff0000 #000000
 0;
 #X obj 1623 -479 cnv 15 42 38 empty chan8 8 20 12 0 20 #ff0000 #000000
@@ -433,6 +433,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X obj 1954 208 t b b;
 #X msg 1589 -730 names CMajor EMajor GMajor Clear;
 #X text 483 -499 Number of Connected Users;
+#X msg 53 -425 connect 198.82.152.114 3007;
 #X connect 0 0 1 0;
 #X connect 1 0 297 0;
 #X connect 1 1 2 0;
@@ -1004,6 +1005,7 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X connect 357 1 291 0;
 #X connect 357 1 292 0;
 #X connect 358 0 247 0;
+#X connect 360 0 1 0;
 #X coords 0 -1 1 1 1231 358 2 463 -697;
 #X restore -1 157 pd engine;
 #X obj 52 52 tgl 67 0 \$0-connect \$0-connectUI CONNECT 14 31 0 10
