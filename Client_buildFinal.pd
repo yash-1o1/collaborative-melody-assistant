@@ -1,4 +1,4 @@
-#N canvas -8 0 1523 762 10;
+#N canvas 0 0 1522 762 10;
 #X obj 0 134 cnv 15 1444 361 empty empty empty 20 12 0 14 #ff8000 #404040
 0;
 #X obj 0 0 cnv 15 1444 137 empty empty empty 600 12 0 20 #e0e0e0 #404040
@@ -429,6 +429,9 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X msg 1956 -684 color #f00;
 #X msg 1589 -730 names CMajor EMajo GMajor Clear;
 #X obj 1823 184 select CMajor EMajor GMajor Clear;
+#X obj 1798 208 t b b;
+#X obj 1870 209 t b b;
+#X obj 1954 208 t b b;
 #X connect 0 0 1 0;
 #X connect 1 0 297 0;
 #X connect 1 1 2 0;
@@ -438,6 +441,8 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X connect 3 0 8 0;
 #X connect 3 0 28 0;
 #X connect 3 0 353 0;
+#X connect 3 0 291 0;
+#X connect 3 0 292 0;
 #X connect 4 0 22 0;
 #X connect 5 0 1 0;
 #X connect 6 0 5 0;
@@ -984,11 +989,20 @@ empty empty empty 29 114 0 0 10 #ffffff 8 102 12.5 12.5 0 1 0;
 #X connect 353 0 344 1;
 #X connect 353 0 350 1;
 #X connect 354 0 247 0;
-#X connect 355 0 249 0;
-#X connect 355 1 276 0;
-#X connect 355 2 277 0;
+#X connect 355 0 356 0;
+#X connect 355 1 357 0;
+#X connect 355 2 358 0;
 #X connect 355 3 291 0;
 #X connect 355 3 292 0;
+#X connect 356 0 249 0;
+#X connect 356 1 291 0;
+#X connect 356 1 292 0;
+#X connect 357 0 276 0;
+#X connect 357 1 291 0;
+#X connect 357 1 292 0;
+#X connect 358 0 277 0;
+#X connect 358 1 291 0;
+#X connect 358 1 292 0;
 #X coords 0 -1 1 1 1443 358 2 463 -697;
 #X restore 0 137 pd engine;
 #X obj 52 28 tgl 67 0 \$0-connect \$0-connectUI CONNECT 14 31 0 10
