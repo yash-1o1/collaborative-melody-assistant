@@ -21,7 +21,12 @@
 #X floatatom 1117 191 5 0 0 0 - - - 0, f 5;
 #X msg 902 270 broadcast %note% \$1;
 #X msg 1034 300 broadcast %channel% \$1;
+#X obj 951 337 change;
+#X obj 1027 356 f;
+#X msg 1027 381 send %nousers% \$1;
 #X connect 0 0 3 0;
+#X connect 0 0 22 0;
+#X connect 0 0 23 0;
 #X connect 2 0 6 1;
 #X connect 2 0 7 1;
 #X connect 3 0 4 0;
@@ -51,3 +56,6 @@
 #X connect 19 0 18 0;
 #X connect 20 0 13 0;
 #X connect 21 0 13 0;
+#X connect 22 0 24 0;
+#X connect 23 0 24 0;
+#X connect 24 0 13 0;
